@@ -13,7 +13,7 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.android.tools.build:gradle:3.3.2'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
@@ -29,7 +29,7 @@ allprojects {
 }
 
 ext {
-    MAVEN_GROUP = 'com.github.mliyuanbiao'
+    MAVEN_GROUP = 'com.github.xiaoxin'
 }
 
 apply plugin: 'com.android.application'
