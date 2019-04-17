@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_imei"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="请输入设备IMEI" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/bt_bind"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="绑定设备" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:text="没有进行绑定的设备，不能进入sos音频通话，只能查看sos的信息。绑定的设备sos可以进行音频通话" />-->
+
+    <EditText
+        android:id="@+id/et_sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="请输入SOS报警记录ID" />
+
+    <Button
+        android:id="@+id/bt_sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS报警" />
+
+    <Button
+        android:id="@+id/bt_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已绑定的小设备列表" />
+
+    <TextView
+        android:id="@+id/tv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

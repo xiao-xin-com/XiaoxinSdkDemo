@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mliyuanbiao.RongCloud:CallLib-2.8.32_rc3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CallLib-2.8.32_rc3.aar/ac28d24f08d57174b211d092184378d0/jars/libs/Rong_CallLib.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CallLib-2.8.32_rc3.aar/ac28d24f08d57174b211d092184378d0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CallLib-2.8.32_rc3.aar/ac28d24f08d57174b211d092184378d0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CallLib-2.8.32_rc3.aar/ac28d24f08d57174b211d092184378d0/jars/libs/agora-rtc-sdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CallLib-2.8.32_rc3.aar/ac28d24f08d57174b211d092184378d0/jars/libs/CallEngine_Agora.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
