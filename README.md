@@ -1,8 +1,8 @@
 - **孝信通 SDK 简介**
 
-* `SDK 功能` - **为集成此 sdk 的 APP 提供调起 SOS 紧急呼救界面（被动）、地图展示求救者位置并与孝信通终端进行语音对讲通话的能力**
-* `SDK 说明` - **目前此 sdk 仅支持 Android 系统**
-* `SDK demo下载` - **[https://github.com/xiao-xin-com/XiaoxinSdkDemo](https://github.com/xiao-xin-com/XiaoxinSdkDemo)**
+	- `SDK 功能` - **为集成此 sdk 的 APP 提供调起 SOS 紧急呼救界面（被动）、地图展示求救者位置并与孝信通终端进行语音对讲通话的能力**
+	- `SDK 说明` - **目前此 sdk 仅支持 Android 系统**
+	- `SDK demo下载` - **[https://github.com/xiao-xin-com/XiaoxinSdkDemo](https://github.com/xiao-xin-com/XiaoxinSdkDemo)**
 
 - **SDK 集成方式**
 
