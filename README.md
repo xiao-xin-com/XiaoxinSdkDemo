@@ -63,9 +63,7 @@ dependencies {
 |privateKeyString   |孝信通提供的 Private Key|
 |OnCallXiaoxin       |init 回调方法|
 
-### e) 在合适的时机（APP 的服务端收到孝信通转发的 SOS 信息后，由 APP 服务端通知 APP）
-
-调用 sdk 的 startSOSActivity 接口：
+### e) 在合适的时机（APP 的服务端收到孝信通转发的 SOS 信息后，由 APP 服务端通知 APP）调用 sdk 的 startSOSActivity 接口：
 
 ```java
 SOSActivity.startSOSActivity(sosId)
@@ -77,8 +75,6 @@ SOSActivity.startSOSActivity(sosId)
 |:---|:---|
 |sosId|孝信通转发给 APP 服务端 SOS 信息的 sosId|
 
-关于 APP 服务端如何订阅孝信通设备的 SOS 信息，请参考
-
-## 订阅孝信通 SOS 报警信息
+关于 APP 服务端如何订阅孝信通设备的 SOS 信息，请参考 [订阅孝信通 SOS 报警信息](https://xxtserver.xiao-xin.com/apidocument/api_push_sos/)
 
 `SDK demo下载` - **[https://github.com/xiao-xin-com/XiaoxinSdkDemo](https://github.com/xiao-xin-com/XiaoxinSdkDemo)**
