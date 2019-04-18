@@ -11,21 +11,34 @@
 		申请到 ak 后，修改 `AndroidManifest.xml` 文件中的以下内容：`com.baidu.lbsapi.API_KEY`
 
 	- b) 在 build.gradle 文件中添加以下内容：
-		- 将其添加到存储库末尾的根build.gradle中        
+		- 在gradle.properties里面添加authToken
+		
+		```properties
+			authToken=jp_pmmpgs6o1go75sfjhe5bm1unlt
+		```
+		
+		- 将其添加到存储库末尾的根build.gradle中   
+		     
 		```groovy
 			allprojects {
 				repositories {
 					...
-					maven { url 'https://jitpack.io' }
+					maven { 
+						url 'https://jitpack.io' 
+						credentials { username authToken }
+					}
 				}
 			}
 		```
+		
 		- 添加依赖项
+		
 		```groovy
 			dependencies {
 				implementation 'com.gitlab.xiaoxin.xiaoxinsdk:sdk:1.1_rc12'
 			}
 		```
+		
 	- c) 向孝信通申请 appKey 与 privateKeyString
 	- d) 在 APP 启动时（建议在 Application 的 onCreate 方法中）调用 sdk 的 init 方法：
 		```java
